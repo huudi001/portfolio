@@ -76,9 +76,9 @@
 
     // Load additional projects
     $('#view-more-projects').click(function(e){
-        e.preventDefault();
+        e.preventDefault();   S
         $(this).fadeOut(300, function() {
-            $('#more-projects').fadeIn(300);
+            $('#more-projects').fadeIn(300);        
         });
     });
 
